@@ -1,0 +1,103 @@
+I Passed the New 2025 CKA Exam — Here’s Exactly How You Can Too (Strategy, Materials and Secrets)
+Malek ZAAG
+Malek ZAAG
+
+Following
+5 min read
+·
+Oct 18, 2025
+100
+
+
+4
+
+
+
+
+
+It all started with CKA… and finished with Kubestronaut😊
+
+Introduction
+I took the Certified Kubernetes Administrator (CKA) exam on May 2025. The CKA exam was updated after February 2025, the update came with new topics (like the Gateway API) and very little documentation. That made preparation tricky — but also more exciting.
+
+
+So if you’re planning to take it soon, you will find in this article the topics that are covered in the CKA exam and the resources that I used to pass with a score of 75%.
+
+The materials I have used
+First of all, to be well prepared for the exam you need to be aware of exam topics. Here is the official curriculum to consult before going to the:
+Curriculum →
+
+10% Storage
+15% Workloads and Scheduling
+20% Servicing and Networking
+30% Troubleshooting
+25% Cluster Architecture, Installation and Configuration
+The official CKA course: The study materials provided are comprehensive and granular in nature. You have the option to acquire them as part of your examination package. Nevertheless, I observed that many of the instructional content pieces demand considerable preliminary configuration work before learners can concentrate on their core educational goals. This preliminary setup phase requires substantial time investment and additional work, thereby increasing the difficulty level of the initial learning phase.
+
+Become a member
+Mumshad’s Udemy course: I am highly enthusiastic about endorsing this program. It is captivating, application-oriented, and remarkably accessible to learners. The practical lab exercises are thoughtfully constructed, and the integrated sandbox platforms eliminate configuration barriers, enabling you to immediately engage with the fundamental principles. In educational contexts, when the initial learning experience is straightforward and pleasurable, retention and mastery are substantially enhanced. This program successfully rendered Kubernetes instruction accessible, practical, and thoroughly pleasurable.
+
+Press enter or click to view image in full size
+
+Udemy CKA Course
+Killercoda Interactive Environment: These interactive labs will provide you with excellent hands-on experience to tackle Kubernetes problems directly in a safe environment. You can choose from a vast catalogue of scenarios.
+
+Press enter or click to view image in full size
+
+Killercoda CKA Scenarios
+and finally the Killer.sh platform, which was the most important resource to use when preparing for the CKA exam. You will get two free mock exams when purchasing the CKA exam. It is harder than the actual exam, so if you succeed in passing these mocks within the 2-hour time limit, you can tackle the exam directly and there is no need to revise anymore.
+
+Some topics that you could get on the exam😉
+ETCD Database Backup & Restore
+Kubeadm upgrade task
+Kubelet configuration and logging ( Tip: /var/lib/kubelet/config.yaml)
+Default containers and pods logging location (/var/log/…)
+RBAC
+Kustomize
+Gateway API (Ingress potential replacement)
+CNI (cilium and flannel installation)
+Helm: Installing, upgrading and deleting chart releases
+Static pod (/etc/kubernetes/manifests)
+Requestes and Limits on Containers
+Network Policies
+PVC and Storage classes management
+Exam Preparation Advice
+Choose a Date
+The first step I took before beginning exam preparation was to commit to a specific date for the exam. You must choose a date to push yourself to prepare seriously; otherwise, you will fall into a cycle of procrastination.
+
+Prepare Your Room the Day Before the Exam
+Prepare your room by ensuring your desk is clean and free of devices or papers that you used during your revision. Test your internet connection and download the PSI browser to verify that your laptop is compatible with it (sometimes recent Windows updates can break the PSI exam launcher). Do not forget to place your valid ID in a location where you can easily find it the next day. You will need this document, and you do not want to be rushing to find a missing ID at the last minute like I did.
+
+Daily Routine
+Throughout the preparation period, I followed a one-lab-per-day strategy. This allowed me to maintain focus on daily objectives and become proficient in using the command line throughout the entire preparation period, which let me to approach the exam with confidence.
+
+Equipment Requirements
+Only one monitor is allowed during the exam. No devices or papers are allowed on your desk.
+
+During the Exam
+When taking the exam, breathe and stay calm. This is not the hardest exam in your life. Be sure to read the questions carefully and pay attention to the current node to verify that you are on the right node and cluster. Sometimes you may need to change contexts within the same cluster.
+
+Flag the more difficult questions and do not spend too much time on them. This is a race against time, and you must maximize your points to succeed by answering all questions.
+
+Be an expert with VIM 🙂
+Mastering Vim significantly enhances productivity and efficiency for developers and system administrators by enabling rapid text editing through keyboard shortcuts, reducing dependency on the mouse, and facilitating seamless workflow integration across various Unix-based environments.
+
+Tip: during the exam, name your manifests with the number of question.yaml and put every object you want to create under the same manifest, it will help you gain time when troubleshooting problems.
+
+Do not forget to apply your manifests😅
+
+My overall thoughts of the experience
+It was a good and fulfilling experience where I got to learn about new aspects of administrating Kubernetes clusters.
+
+Press enter or click to view image in full size
+
+My CKA Score
+Was this helpful? Confusing? If you have any questions, feel free to contact me!
+
+Before you leave:
+
+👏 Clap for the story
+
+📰 Subscribe for more posts like this @malek.zaag
+
+👉👈 Please follow me: GitHub | LinkedIn
